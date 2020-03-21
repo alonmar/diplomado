@@ -1,0 +1,74 @@
+---
+title: "02 Gráficas"
+output: html_notebook
+---
+
+
+# Cargamos los paquetes
+
+```{r}
+library(tidyverse)
+
+```
+
+
+Se dice que una imagen vale más que mil palabras, por lo que ahora nos toca convertirnos en unos 
+artistas visuales! 
+
+
+
+# Tu turno 1
+
+Carguemos nuestro dataset
+
+```{r}
+
+coronavirus <- read_csv(_____)
+
+```
+
+
+# Tu turno 2
+
+Crea una gráfica que muestre que *sexo* es el más afectado
+
+```{r}
+
+coronavirus %>% 
+  ggplot() + 
+  geom_bar(aes(x = ____ ))
+
+```
+
+
+# Tu turno 3
+
+Ahora una gráfica que visualice los casos por *estado*
+
+```{r}
+
+summary(______)
+
+```
+
+# Tu turno 4
+
+Y si creamos un boxplot en función de la *edad* y del *sexo*?
+
+```{r}
+
+
+```
+
+#  Tu turno 5
+
+Crea la gráfica que desees y presumela a los que estan a tu alrededor 
+
+-no olvides jugar con los themas y los colores
+
+```{r}
+
+```
+
+
+

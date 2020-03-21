@@ -1,0 +1,132 @@
+---
+title: "01 importación y transformación"
+output: html_notebook
+---
+
+
+
+
+Cargamos los paquetes necesarios
+
+```{r}
+library(writexl) 
+library(tidyverse)
+library(openxlsx)
+```
+
+
+
+Te tenemos buenas y malas noticias!
+
+Haz sido contratado por la Organización Mundial de la Salud (OMS)! Muchas felicidades!
+
+Sin embargo actualmente existe un nuevo virus llamado *CORONAVIRUS*, una de tus 
+primeras tareas es que analices los casos de infectados dentro de México.
+
+
+
+
+
+# Tu turno 1
+
+Vamos a cargar nuestro dataset
+
+```{r}
+
+coronavirus <- read_csv(_____)
+
+```
+
+
+# Tu turno 2
+
+Veamos nuestro dataset
+
+
+```{r}
+
+
+
+```
+
+
+# Tu turno 3
+
+Ahora un vistazo rápido a la distribución de nuestros datos
+
+```{r}
+
+summary(______)
+
+```
+
+# Tu turno 4
+
+Filtra todos los casos donde el infectado provenga de Italia
+
+```{r}
+
+
+```
+
+# Tu turno 5
+
+Filtra todos los casos de "Oaxaca" o de "Puebla" y guárdalo en una nueva variable 
+que se llame 'casos_oaxaca_puebla'
+
+```{r}
+
+
+```
+
+# Tu turno 6
+
+A la variable casos_oaxaca_puebla (creada anteriormente) selecciona solo las
+columnas Estado, Sexo, Edad
+
+```{r}
+
+
+```
+
+
+# Tu turno 7
+
+Qué sexo es el más afectado?
+
+-pista- recuerda la función *count()*
+
+```{r}
+
+
+```
+
+# Tu turno 8
+
+Que Estado tiene el mayor número de casos?
+
+```{r}
+
+
+```
+
+
+# Tu turno 9
+
+Lo anterior guárdalo en un archivo xlsx para que puedas compartir tus resultados
+
+
+```{r}
+
+```
+
+# Tu turno 10
+
+Ya tienes las bases de R :D y si ahora tu mismo creas un pregunta?
+Cuál fue tu resultado?
+
+```{r}
+
+```
+
+
